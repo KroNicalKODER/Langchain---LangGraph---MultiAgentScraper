@@ -1,6 +1,6 @@
 # Research Assistant with LangGraph
 
-A powerful research assistant that uses LangGraph for workflow management, Tavily for web scraping, and Ollama for LLM processing. The system provides detailed research responses with a transparent thinking process.
+A powerful research assistant that uses LangGraph for workflow management, Tavily for web scraping, and Ollama for LLM processing. The system provides detailed research responses with a transparent **thinking process**.
 
 ## Features
 
@@ -21,8 +21,8 @@ A powerful research assistant that uses LangGraph for workflow management, Tavil
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/KroNicalKODER/Langchain---LangGraph---MultiAgentScraper.git
+cd Langchain---LangGraph---MultiAgentScraper
 ```
 
 2. Create and activate a conda environment:
@@ -42,17 +42,6 @@ Create a `.env` file in the project root with:
 TAVILY_API_KEY=your_tavily_api_key
 ```
 
-## Requirements
-
-The project requires the following packages (automatically installed via requirements.txt):
-```
-langchain>=0.1.0
-langgraph>=0.0.10
-streamlit>=1.30.0
-tavily-python>=0.2.0
-python-dotenv>=1.0.0
-```
-
 ## Running Ollama
 
 Before starting the application, ensure Ollama is running with the DeepSeek model:
@@ -62,7 +51,7 @@ Before starting the application, ensure Ollama is running with the DeepSeek mode
 ollama serve
 
 # In a separate terminal, pull the DeepSeek model
-ollama pull deepseek-coder:33b
+ollama pull llama3.2
 ```
 
 ## Running the Application
@@ -86,27 +75,10 @@ streamlit run app.py
 
 3. Toggle the "Show Thinking Process" checkbox to view the detailed research steps
 
-## Project Structure
+## Images
+![image](https://github.com/user-attachments/assets/b6c7ecc6-dbd9-4bb7-af78-760177c15a21)
+![image](https://github.com/user-attachments/assets/f3137dd4-50d8-456c-ba33-cd8948b71efc)
+![image](https://github.com/user-attachments/assets/71a450a9-c01b-406d-824e-04bdcca14e9f)
 
-```
-.
-├── app.py                 # Streamlit application
-├── research_graph.py      # LangGraph workflow implementation
-├── requirements.txt       # Project dependencies
-├── .env                  # Environment variables
-└── README.md             # This file
-```
 
-## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- [LangGraph](https://github.com/langchain-ai/langgraph) for workflow management
-- [Tavily](https://tavily.com/) for web search capabilities
-- [Ollama](https://ollama.ai/) for local LLM processing 

@@ -1,0 +1,10 @@
+langchain>=0.1.0
+langgraph>=0.0.10
+tavily-python>=0.2.0
+ollama>=0.1.0
+python-dotenv>=1.0.0
+asyncio>=3.4.3
+aiohttp>=3.9.1 
+langchain-community>=0.1.0
+streamlit>=1.32.0
+langchain-ollama

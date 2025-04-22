@@ -50,7 +50,7 @@ Before starting the application, ensure Ollama is running with the DeepSeek mode
 # Start Ollama service
 ollama serve
 
-# In a separate terminal, pull the DeepSeek model
+# In a separate terminal, pull the llama3.2 model
 ollama pull llama3.2
 ```
 

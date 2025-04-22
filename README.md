@@ -14,7 +14,7 @@ A powerful research assistant that uses LangGraph for workflow management, Tavil
 
 - Python 3.10 or higher
 - Conda (recommended) or virtualenv
-- Ollama installed and running with the DeepSeek model
+- Ollama installed and running with the Llama3.2 model
 - Tavily API key
 
 ## Installation
